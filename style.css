@@ -1,0 +1,39 @@
+body {
+    margin-top: 150px;
+}
+
+.main {
+    margin-top: 50px;
+    background-color: rgb(19, 18, 18);
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.main .head{
+    display: flex;
+    justify-content: center;
+}
+.head h1 {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30pt;
+}
+.main .content {
+    display: flex;
+    justify-content: center;
+}
+.content h1 {
+    margin: 20px;
+    background-color: black;
+    width: 100px;
+    height: 60px;
+    color: green;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 40pt;
+    text-decoration-style: dashed;
+}
